@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e977;
+}
+
+header {
+    background-color: #333;
+    color: rgb(7, 227, 238);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: rgb(191, 244, 168);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.super {
+    background-color: #4424;
+    color: rgb(9, 227, 239);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.super h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.super p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.super .btn {
+    background-color: #0be712;
+    color: rgb(193, 235, 238);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.super .btn:hover {
+    background-color: #8bda8b;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ad4e4e;
+}
+
+.services h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #6667;
+}
+
+footer {
+    background-color: rgb(53, 87, 80);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
